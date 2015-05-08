@@ -44,7 +44,4 @@
       </block>
     </next>
   </block>
-  <block type="oled_linerect" id="140" x="1" y="294">
-    <field name="OBJECT">LINE</field>
-  </block>
 </xml>

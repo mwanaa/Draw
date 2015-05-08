@@ -18,11 +18,33 @@
             <next>
               <block type="oled_drawtext" id="83">
                 <field name="TEXT">Hello World</field>
+                <next>
+                  <block type="oled_setcursor" id="109" inline="true">
+                    <value name="STARTX">
+                      <block type="math_number" id="124">
+                        <field name="NUM">10</field>
+                      </block>
+                    </value>
+                    <value name="STARTY">
+                      <block type="math_number" id="131">
+                        <field name="NUM">20</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="oled_drawtext" id="150">
+                        <field name="TEXT">THANKS</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
         </next>
       </block>
     </next>
+  </block>
+  <block type="oled_linerect" id="140" x="1" y="294">
+    <field name="OBJECT">LINE</field>
   </block>
 </xml>

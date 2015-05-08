@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_color" id="100">
-            <field name="OBJECT">BLACK</field>
+            <field name="OBJECT">GREEN</field>
             <next>
               <block type="oled_drawtext" id="83">
                 <field name="TEXT">Hello World</field>
